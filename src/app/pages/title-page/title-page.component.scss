@@ -1,0 +1,17 @@
+#title-page-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(162, 216, 216);
+    // animation: gradient 1;
+}
+
+.title-page-content {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50vh;
+}
