@@ -1,3 +1,15 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position:0% 50%;
+    }
+    50% {
+        background-position:100% 50%;
+    }
+    100% {
+        background-position:0% 50%;
+    }
+}
+
 #title-page-card {
     height: 100%;
     width: 100%;
@@ -5,8 +17,10 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: rgb(162, 216, 216);
-    // animation: gradient 1;
+    background: linear-gradient(135deg, #52eea0, #3ce76f, #53caf5, #cf81fc, #f175c8, #c73596);
+    background-size: 700% 700%;
+    animation: gradientAnimation 18s ease infinite;
+
 }
 
 .title-page-content {
@@ -15,3 +29,4 @@
     align-items: center;
     padding-top: 50vh;
 }
+
