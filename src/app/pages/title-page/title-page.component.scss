@@ -17,7 +17,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #52eea0, #3ce76f, #53caf5, #cf81fc, #f175c8, #c73596);
+    background: linear-gradient(90deg, #52eea0, #3ce76f, #53caf5, #cf81fc, #f175c8, #c73596);
     background-size: 700% 700%;
     animation: gradientAnimation 18s ease infinite;
 
@@ -37,12 +37,12 @@ mat-card {
     padding: 5vh 5vh 5vh 5vh;
     height: min-content;
     background-color: rgba(144, 226, 226, 0.26);
-    outline: thick double rgba(144, 226, 226, 0.26);
+    outline: 15px double rgba(144, 226, 226, 0.26);
     outline-offset: 10px;
     box-shadow: 5rem;
 }
 
-h1, h2, span {
+h1, h2, p, span {
     font-family: 'Spectral', serif;
 }
 
@@ -54,9 +54,28 @@ h2 {
     line-height: 70px;
     font-weight: 900;
     font-size: 75px;
+    text-shadow: -4px 2px 2px #00000046;
+    // font-family: 'Nova Square', cursive;
 }
 
 span {
     font-size: 20px;
     justify-content: center;
+}
+
+button {
+    // margin-top: 25vh;
+    font-family: 'Nova Square', cursive;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 25px;
+    z-index: 3;
+    background-color: transparent;
+    border: none;
+    // background-color: rgba(144, 226, 226, 0.507);
+}
+
+button:hover {
+    font-size: 28px;
+    transition: font-size 1s;
 }
