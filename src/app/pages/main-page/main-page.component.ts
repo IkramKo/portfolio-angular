@@ -1,3 +1,4 @@
+import { LocationStrategy, ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private viewPortScroller: ViewportScroller) { 
   }
 
+  ngOnInit(): void {
+    this.viewPortScroller.scrollToAnchor('title-page');
+  }
 }

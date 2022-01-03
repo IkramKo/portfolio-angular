@@ -7,6 +7,7 @@
 @include mat.all-component-themes($mat-light-theme);
 
 html, body { height: 100%; }
+html { scroll-behavior: smooth;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /*

@@ -9,6 +9,8 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
 import { TitlePageComponent } from './pages/title-page/title-page.component';
 import { AboutMePageComponent } from './pages/about-me-page/about-me-page.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { AboutMePageComponent } from './pages/about-me-page/about-me-page.compon
     SideNavigationComponent,
     TitlePageComponent,
     AboutMePageComponent,
+    ProjectCardComponent,
+    ProjectsPageComponent,
   ],
   imports: [
     BrowserModule,

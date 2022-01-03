@@ -1,4 +1,6 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-title-page',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./title-page.component.scss']
 })
 export class TitlePageComponent implements OnInit {
-
-  constructor() { }
+  constructor(private readonly viewPortScroller: ViewportScroller) { }
 
   ngOnInit(): void {
   }
 
+  scroll() : void {
+    this.viewPortScroller.scrollToAnchor('about-me-page');
+  }
 }
