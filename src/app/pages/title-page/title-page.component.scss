@@ -24,9 +24,39 @@
 }
 
 .title-page-content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 50vh;
+    padding-top: 35vh;
 }
 
+mat-card {
+    // width: min-content;
+    padding: 5vh 5vh 5vh 5vh;
+    height: min-content;
+    background-color: rgba(144, 226, 226, 0.26);
+    outline: thick double rgba(144, 226, 226, 0.26);
+    outline-offset: 10px;
+    box-shadow: 5rem;
+}
+
+h1, h2, span {
+    font-family: 'Spectral', serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    line-height: 70px;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+span {
+    font-size: 20px;
+    justify-content: center;
+}
