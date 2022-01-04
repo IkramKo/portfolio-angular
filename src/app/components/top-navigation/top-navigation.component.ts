@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopNavigationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private viewPortScroller: ViewportScroller) { }
 
   ngOnInit(): void {
   }
 
+  scroll() : void {
+    this.viewPortScroller.scrollToAnchor('title-page');
+  }
 }

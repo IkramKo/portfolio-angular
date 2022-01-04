@@ -24,16 +24,17 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 35vh;
+    // position: relative;
+    padding-top: 25vh;
 }
 
 mat-card {
-    padding: 5vh 5vh 5vh 5vh;
+    padding: 15vh 5vh 15vh 5vh;
     height: min-content;
     background-color: rgba(142, 200, 206, 0.438);
     outline: 15px double rgba(142, 200, 206, 0.438);
     outline-offset: 10px;
-    box-shadow: 5rem;
+    // box-shadow: 5rem;
 }
 
 h1, h2, p, span, button {
@@ -48,8 +49,9 @@ h2 {
     line-height: 70px;
     font-weight: 900;
     font-size: 75px;
+    // font-family: 'Yesteryear', cursive;
     // text-shadow: -4px 2px 2px #00000046;
-    // font-family: 'Nova Square', cursive;
+    font-family: 'Nova Square', cursive;
 }
 
 span {
@@ -58,14 +60,15 @@ span {
 }
 
 button {
-    // margin-top: 25vh;
-    // font-family: 'Nova Square', cursive;
+    margin-top: 15vh;
+    font-family: 'Nova Square', cursive;
     font-style: bold;
     font-weight: 900;
     font-size: 25px;
     z-index: 51;
     background-color: transparent;
     border: none;
+    cursor: pointer;
     // background-color: rgba(144, 226, 226, 0.507);
 }
 
