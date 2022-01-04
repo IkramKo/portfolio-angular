@@ -1,26 +1,21 @@
-@keyframes gradientAnimation {
-    0% {
-        background-position:0% 50%;
-    }
-    50% {
-        background-position:100% 50%;
-    }
-    100% {
-        background-position:0% 50%;
-    }
+#particles-js {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
 }
 
 #title-page-card {
+    position: relative;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, #52eea0, #3ce76f, #53caf5, #cf81fc, #f175c8, #c73596);
-    background-size: 700% 700%;
-    animation: gradientAnimation 18s ease infinite;
-
+    background: linear-gradient(#022c44 25%, #025469 70%,#396d8a);
+    background-size: 100% 100%;
+    overflow-x: hidden;
 }
 
 .title-page-content {
@@ -33,16 +28,15 @@
 }
 
 mat-card {
-    // width: min-content;
     padding: 5vh 5vh 5vh 5vh;
     height: min-content;
-    background-color: rgba(144, 226, 226, 0.26);
-    outline: 15px double rgba(144, 226, 226, 0.26);
+    background-color: rgba(142, 200, 206, 0.438);
+    outline: 15px double rgba(142, 200, 206, 0.438);
     outline-offset: 10px;
     box-shadow: 5rem;
 }
 
-h1, h2, p, span {
+h1, h2, p, span, button {
     font-family: 'Spectral', serif;
 }
 
@@ -54,7 +48,7 @@ h2 {
     line-height: 70px;
     font-weight: 900;
     font-size: 75px;
-    text-shadow: -4px 2px 2px #00000046;
+    // text-shadow: -4px 2px 2px #00000046;
     // font-family: 'Nova Square', cursive;
 }
 
@@ -65,7 +59,7 @@ span {
 
 button {
     // margin-top: 25vh;
-    font-family: 'Nova Square', cursive;
+    // font-family: 'Nova Square', cursive;
     font-style: bold;
     font-weight: 900;
     font-size: 25px;
@@ -76,6 +70,6 @@ button {
 }
 
 button:hover {
-    font-size: 28px;
-    transition: font-size 1s;
+    font-size: 27px;
+    transition: font-size 0.5s;
 }

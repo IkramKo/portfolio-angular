@@ -1,6 +1,7 @@
 import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+// import JSONstarParticles from '@assets/json/star-particles.json';
+declare let particlesJS: any;
 
 @Component({
   selector: 'app-title-page',
@@ -11,9 +12,14 @@ export class TitlePageComponent implements OnInit {
   constructor(private readonly viewPortScroller: ViewportScroller) { }
 
   ngOnInit(): void {
+    this.displayStars();
   }
 
   scroll() : void {
     this.viewPortScroller.scrollToAnchor('about-me-page');
+  }
+
+  private displayStars() : void {    
+    particlesJS.load('particles-js', '../assets/json/star-particles.json', () => { console.log('Star particles loaded.')});
   }
 }

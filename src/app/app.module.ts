@@ -11,7 +11,6 @@ import { AboutMePageComponent } from './pages/about-me-page/about-me-page.compon
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
 import { TopNavigationComponent } from './components/top-navigation/top-navigation.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +26,7 @@ import { TopNavigationComponent } from './components/top-navigation/top-navigati
     RouterModule,
     AppRoutingModule,
     AppMaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
