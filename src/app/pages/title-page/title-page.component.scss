@@ -6,14 +6,16 @@
 }
 
 #title-page-card {
-    position: relative;
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     margin: 0;
     padding: 0;
-    background: linear-gradient(#022c44 25%, #025469 70%,#396d8a);
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#041f2e 25%, #025469 70%,#396d8a);
     background-size: 100% 100%;
     overflow-x: hidden;
 }
@@ -32,13 +34,15 @@ mat-card {
     padding: 15vh 5vh 15vh 5vh;
     height: min-content;
     background-color: rgba(142, 200, 206, 0.438);
-    outline: 15px double rgba(142, 200, 206, 0.438);
-    outline-offset: 10px;
+    // background-color: transparent;
+    outline: 10px double rgba(142, 200, 206, 0.438);
+    outline-offset: 8px;
     // box-shadow: 5rem;
 }
 
 h1, h2, p, span, button {
     font-family: 'Spectral', serif;
+    // font-family: 'VT323', monospace;
 }
 
 h1 {
@@ -49,9 +53,9 @@ h2 {
     line-height: 70px;
     font-weight: 900;
     font-size: 75px;
-    // font-family: 'Yesteryear', cursive;
     // text-shadow: -4px 2px 2px #00000046;
     font-family: 'Nova Square', cursive;
+    // font-family: 'VT323', monospace;
 }
 
 span {
@@ -60,7 +64,8 @@ span {
 }
 
 button {
-    margin-top: 15vh;
+    margin-top: 10vh;
+    width: min-content;
     font-family: 'Nova Square', cursive;
     font-style: bold;
     font-weight: 900;
