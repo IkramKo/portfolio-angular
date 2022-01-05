@@ -1,14 +1,23 @@
 [
     {
         "title": "Embedded Systems Project",
-        "images": ["link"],
-        "description": "Blah Blah",
-        "sourceCode": "weeasdlasdj_1"
+        "image": "link",
+        "description": "Blah Blah Technologies used etc",
+        "sourceCode": "weeasdlasdj_1",
+        "link": ""
     },
     {
         "title": "Web Application Project",
-        "images": ["link"],
-        "description": "Blah Blah",
-        "sourceCode": "weeasdlasdj_2"
+        "image": "link",
+        "description": "Blah Blah Technologies used etc",
+        "sourceCode": "weeasdlasdj_2",
+        "link": "pepe1"
+    },
+    {
+        "title": "Portfolio Project",
+        "image": "link",
+        "description": "Blah Blah Technologies used etc",
+        "sourceCode": "weeasdlasdj_3",
+        "link": "pepe2"
     }
 ]
