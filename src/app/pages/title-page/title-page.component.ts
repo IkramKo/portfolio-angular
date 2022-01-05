@@ -20,6 +20,6 @@ export class TitlePageComponent implements OnInit {
   }
 
   private displayStars() : void {    
-    particlesJS.load('particles-js', '../assets/json/star-particles.json', () => { console.log('Star particles loaded.')});
+    particlesJS.load('particles-js', '../assets/json/edge-particles.json', () => { console.log('Star particles loaded.')});
   }
 }

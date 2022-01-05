@@ -1,16 +1,22 @@
 mat-toolbar {
     // position: sticky;
-    background-color: #041f2e83;
+    // background-color: #041f2e83;
+    background-color: transparent;
     height: 7vh;
+    justify-content: space-between;
     // border: turquoise;
 }
 
 .name {
     font-family: 'Nova Square', cursive;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(35, 241, 224);
 }
 
 .name:hover {
     cursor: pointer;
+}
+
+.content {
+    color: white;
 }
