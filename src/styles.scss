@@ -10,6 +10,12 @@ html, body { height: 100%; }
 html { scroll-behavior: smooth;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+:root {
+  --top-nav-color: transparent;
+  // --top-nav-text: rgb(35, 241, 224);
+  // --top-nav-shadow: none;
+}
+
 /*
     Taken and modified from https://www.digitalocean.com/community/tutorials/css-scrollbars.
 */

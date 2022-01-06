@@ -12,14 +12,14 @@ export class TitlePageComponent implements OnInit {
   constructor(private readonly viewPortScroller: ViewportScroller) { }
 
   ngOnInit(): void {
-    this.displayStars();
+    this.displayParticles();
   }
 
   scroll() : void {
     this.viewPortScroller.scrollToAnchor('about-me-page');
   }
 
-  private displayStars() : void {    
+  private displayParticles() : void {    
     particlesJS.load('particles-js', '../assets/json/edge-particles.json', () => { console.log('Star particles loaded.')});
   }
 }
