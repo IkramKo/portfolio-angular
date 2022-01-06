@@ -1,12 +1,8 @@
 mat-toolbar {
-    // position: sticky;
-    // background-color: #041f2e83;
     height: 7vh;
     justify-content: space-between;
     background-color:var(--top-nav-color);
     transition: background-color 1s ease;
-    // transition: all 0.3s ease-in-out 0s;
-    // border: turquoise;
 }
 
 .name {

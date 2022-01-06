@@ -15,7 +15,6 @@
     padding: 0;
     height: 100%;
     width: 100%;
-    // background: linear-gradient(#041f2e 25%, #025469 70%,#396d8a);
     background-color: rgb(10, 19, 20);
     background-size: 100% 100%;
     overflow-x: hidden;
@@ -27,22 +26,16 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    // position: relative;
     padding-top: 25vh;
 }
 
 mat-card {
     padding: 15vh 5vh 15vh 5vh;
     height: min-content;
-    // background-color: rgba(142, 200, 206, 0.438);
     background-color: transparent;
-    // outline: 10px double rgba(142, 200, 206, 0.438);
-    // outline-offset: 8px;
-    // box-shadow: 5rem;
 }
 
 h1, h2, p, span, button {
-    // font-family: 'Spectral', serif;
     color: white;
     font-family: 'VT323', monospace;
 }
@@ -58,8 +51,6 @@ h2 {
     color: rgb(35, 241, 224);
     text-shadow: -4px 2px 2px #99d4cc67;
     font-family: 'Nova Square', cursive;
-    // font-family: 'Spectral', serif;
-    // font-family: 'VT323', monospace;
 }
 
 span {
@@ -71,7 +62,6 @@ button {
     margin-top: 12vh;
     width: max-content;
     text-shadow: -3px 1px 1px #99d4cc67;
-    // font-family: 'Nova Square', cursive;
     font-style: bold;
     font-weight: 500;
     font-size: 30px;
@@ -79,7 +69,6 @@ button {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    // background-color: rgba(144, 226, 226, 0.507);
 }
 
 button:hover {
