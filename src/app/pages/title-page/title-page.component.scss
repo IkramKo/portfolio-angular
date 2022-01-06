@@ -72,8 +72,8 @@ button {
 }
 
 button:hover {
-    font-size: 32px;
-    transition: font-size 0.5s;
+    transform: scale(1.15);
+    transition: transform 0.5s;
 }
 
 mat-icon {
