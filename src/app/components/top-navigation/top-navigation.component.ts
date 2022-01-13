@@ -1,5 +1,6 @@
-import { ViewportScroller } from '@angular/common';
 import { Component, HostListener, OnInit } from '@angular/core';
+import { Anchors } from '@app/classes/anchors';
+import { ScrollingService } from '@app/services/scrolling/scrolling.service';
 
 @Component({
   selector: 'app-top-navigation',
@@ -7,13 +8,12 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./top-navigation.component.scss']
 })
 export class TopNavigationComponent implements OnInit {
-  // screen
   initScreenHeight: number;
-  // currentScreenHeight: number;
+  typeOfAnchors: typeof Anchors;
 
-  constructor(private viewPortScroller: ViewportScroller) { 
+  constructor(readonly scroller: ScrollingService) { 
     this.initScreenHeight = window.innerHeight;
-    // this.currentScreenHeight = window.innerHeight;
+    this.typeOfAnchors = Anchors;
   }
 
   @HostListener('window:scroll', ['$event'])
@@ -30,9 +30,5 @@ export class TopNavigationComponent implements OnInit {
   }
 
   ngOnInit(): void {
-  }
-
-  scroll() : void {
-    this.viewPortScroller.scrollToAnchor('title-page');
   }
 }

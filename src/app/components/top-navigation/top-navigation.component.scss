@@ -5,6 +5,16 @@ mat-toolbar {
     transition: background-color 1s ease;
 }
 
+#content {
+    display: flex;
+    color: white;
+    gap: 1.5vw;
+}
+
+#content >*:hover {
+    cursor: pointer;
+}
+
 .name {
     font-family: 'Nova Square', cursive;
     font-weight: 600;
@@ -13,8 +23,4 @@ mat-toolbar {
 
 .name:hover {
     cursor: pointer;
-}
-
-.content {
-    color: white;
 }

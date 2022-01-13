@@ -1,21 +1,24 @@
 [
     {
+        "year": "2020",
         "title": "Embedded Systems Project",
-        "image": "link",
+        "image": "/assets/images/laptop-bckg.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_1",
         "link": ""
     },
     {
+        "year": "2021",
         "title": "Web Application Project",
-        "image": "link",
+        "image": "/assets/images/laptop-bckg.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_2",
         "link": "pepe1"
     },
     {
+        "year": "2022",
         "title": "Portfolio Project",
-        "image": "link",
+        "image": "/assets/images/laptop-bckg.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_3",
         "link": "pepe2"

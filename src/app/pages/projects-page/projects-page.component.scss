@@ -1,6 +1,15 @@
-section {
-    height: 100%;
+#projects-page-card {
+    // height: 100%;
     width: 100%;
     background-color: var(--bckg-color); 
     padding-top: var(--top-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.singular-project {
+    width: 85%;
+    padding-bottom: 2vh;
 }

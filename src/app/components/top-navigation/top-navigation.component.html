@@ -1,4 +1,9 @@
-<mat-toolbar class="pos"> 
-    <span class="name" (click)="scroll()"> Ikram Kohil </span>   
-    <span class="content">About Education Projetcs Contact</span> 
+<mat-toolbar> 
+    <span class="name" (click)="scroller.scroll(typeOfAnchors.Title)"> Ikram Kohil </span>   
+    <div id="content">    
+        <span (click)="scroller.scroll(typeOfAnchors.AboutMe)"> About </span>
+        <span (click)="scroller.scroll(typeOfAnchors.EducationSection)"> Education </span>
+        <span (click)="scroller.scroll(typeOfAnchors.Projects)"> Projects </span>
+        <span (click)="scroller.scroll(typeOfAnchors.Contacts)"> Contact </span> 
+    </div>
 </mat-toolbar>
