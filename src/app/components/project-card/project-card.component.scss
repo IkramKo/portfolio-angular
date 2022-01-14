@@ -7,13 +7,16 @@ mat-card {
 .project-img {
     height: 35%;
     width: 30%;
+    object-fit: cover;
     border-radius: 15px;
+    border: none;
 }
 
 .project-img:hover {
-    box-shadow: 3px 2px 2px #00000041;
+    // box-shadow: 3px 2px 2px #00000041;
     border-radius: 5px;
     transition: border-radius 0.5s;
+    margin: 0;
 }
 
 .content {

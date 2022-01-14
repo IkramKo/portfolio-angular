@@ -2,7 +2,7 @@
     {
         "year": "2020",
         "title": "Embedded Systems Project",
-        "image": "/assets/images/laptop-bckg.jpg",
+        "image": "/assets/images/projects/robot.png",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_1",
         "link": ""
@@ -10,7 +10,7 @@
     {
         "year": "2021",
         "title": "Web Application Project",
-        "image": "/assets/images/laptop-bckg.jpg",
+        "image": "/assets/images/projects/scrabble.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_2",
         "link": "pepe1"
@@ -18,7 +18,7 @@
     {
         "year": "2022",
         "title": "Portfolio Project",
-        "image": "/assets/images/laptop-bckg.jpg",
+        "image": "/assets/images/projects/portfolio.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_3",
         "link": "pepe2"
