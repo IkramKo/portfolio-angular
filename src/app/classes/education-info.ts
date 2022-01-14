@@ -1,6 +1,6 @@
-export interface Education {
+export interface EducationInfo {
     image: string,
     school: string,
     program: string,
-    years: string
-}
+    years: string,
+  }

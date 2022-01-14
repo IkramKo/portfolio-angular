@@ -35,14 +35,21 @@
 </section> -->
 
 <div id="about-me-page-card">
+    <h1> Who am I?</h1>
     <section id="description-section">
-        Hi! I'm Ikram and 
-        I've always enjoyed creative activities as much as I enjoyed ???. Software development seemed to be the perfect career choice for me since it combines both.
+        <p class="abt-text">
+            Hi, my name is Ikram and I'm an aspiring software engineer! 
+            Growing up, I've picked up various creative hobbies, such as painting, writing and sowing. Creating things I could be proud of has always been a process I enjoyed. 
+            I've been introduced to tech at a young age, back when I was given my own computer and no longer had to fight with my brother for the right to use use his. I was able to play video games to my heart's content. The gaming then lead to a genuine interest in the tech field.
+            When the time came, software development was the obvious career choice for me, since it combined creativity and technical skills!
+            <br>
+            I'm currently looking for opportunities to put the skills I have acquired in my studies to use in order to perfect them, and even acquire new ones. 
+        </p>
     </section>
 
-    <h2>My Education</h2>
     <section id="education-section">
-        Dawson and all that.
+        <h2>My Education</h2>
+        <app-education-card *ngFor="let education of educationList" [education]="education"></app-education-card>
     </section>
 
     <h2>Technologies I'm familiar with</h2>

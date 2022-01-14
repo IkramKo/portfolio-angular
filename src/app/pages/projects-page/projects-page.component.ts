@@ -9,10 +9,11 @@ import { ProjectInfo
 })
 export class ProjectsPageComponent implements OnInit {
   projectsList : ProjectInfo[] = [];
-  constructor() { }
+  constructor() { 
+    this.createProjects();
+  }
 
   ngOnInit(): void {
-    this.createProjects();
   }
 
   private createProjects() : void {

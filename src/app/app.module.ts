@@ -12,6 +12,7 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { ProjectsPageComponent } from './pages/projects-page/projects-page.component';
 import { TopNavigationComponent } from './components/top-navigation/top-navigation.component';
 import { ContactMePageComponent } from './pages/contact-me-page/contact-me-page.component';
+import { EducationCardComponent } from './components/education-card/education-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { ContactMePageComponent } from './pages/contact-me-page/contact-me-page.
     ProjectsPageComponent,
     TopNavigationComponent,
     ContactMePageComponent,
+    EducationCardComponent,
   ],
   imports: [
     BrowserModule,

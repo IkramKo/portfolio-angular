@@ -1,12 +1,12 @@
 [
     {
-        "image": "link",
+        "image": "/assets/images/education/dawson.jpg",
         "school": "Dawson College",
         "program": "DES in Pure and Applied Sciences",
         "years": "2017 - 2019"
     },
     {
-        "image": "link",
+        "image": "/assets/images/education/poly.jpg",
         "school": "École Polytechnique de Montréal",
         "program": "Bachelors in Software Engineering",
         "years": "2019 - 2023"

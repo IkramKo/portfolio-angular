@@ -1,0 +1,22 @@
+.education-img {
+    height: 10vw;
+    width: 10vw;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+}
+
+mat-card {
+    display: flex;
+    background-color: transparent;
+}
+
+.content {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+}

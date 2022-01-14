@@ -3,6 +3,8 @@
     width: 100%;
     background-color: var(--bckg-color); 
     padding-top: var(--top-padding);
+    display: flex;
+    flex-direction: column;
     // padding-left: 1.04vw;
     // overflow: hidden;
 }
@@ -29,6 +31,13 @@
 .skill-img {
     height: 40%;
     width: 35%;
+}
+
+.abt-text {
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 // p {
