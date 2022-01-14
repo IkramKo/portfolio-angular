@@ -12,5 +12,8 @@ export enum SkillsIcons {
     Sql = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
     Git = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
     Jira = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg',
-    Linux = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg'
+    Linux = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+    LinkedIn = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg',
+    Github = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+    Email = '/assets/images/skills/mail.png'
 }
