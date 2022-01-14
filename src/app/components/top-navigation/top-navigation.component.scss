@@ -2,6 +2,7 @@ mat-toolbar {
     height: 7vh;
     justify-content: space-between;
     background-color:var(--top-nav-color);
+    box-shadow: 10px;
     transition: background-color 1s ease;
 }
 

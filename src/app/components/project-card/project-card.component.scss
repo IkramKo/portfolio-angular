@@ -1,12 +1,21 @@
 mat-card {
     display: flex;
     flex-direction: row;
-    // background-color: transparent;
+    background-color: transparent;
+}
+
+.project-desc {
+    display: flex;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    padding-left: 7px;;
 }
 
 .project-img {
-    height: 35%;
-    width: 30%;
+    height: 25vh;
+    width: 25vw;
     object-fit: cover;
     border-radius: 15px;
     border: none;

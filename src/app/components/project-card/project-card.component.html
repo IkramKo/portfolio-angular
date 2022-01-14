@@ -1,8 +1,13 @@
 <mat-card class="mat-elevation-z0">
-    <img class="project-img" src="{{ project.image }}">
-    <div class="content">
-        <h1> {{ project.title }} </h1>
-        <p> {{ project.description }} </p>
+    <div class="year">
+        {{project.year}}
+    </div>
+    <div class="project-desc">
+        <img class="project-img" src="{{ project.image }}">
+        <div class="content">
+            <h1> {{ project.title }} </h1>
+            <p> {{ project.description }} </p>
+        </div>
     </div>
 </mat-card>
 
