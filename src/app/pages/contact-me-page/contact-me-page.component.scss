@@ -1,15 +1,6 @@
-#contact-me-page-card {
-    // background-color: rgba(25, 206, 226, 0.486);
-    background-color: rgb(255, 255, 255);;
-}
-
-.contacts-list {
-    display: flex;
-}
-
 img {
-    height: 25%;
-    width: 25%;
+    height: 10vh;
+    width: 10vh;
 }
 
 h1, h2 {
@@ -18,4 +9,86 @@ h1, h2 {
 
 h1 {
     margin-bottom: 0;
+    font-family: 'VT323', monospace;
+    color: var(--font-color-title);
+    font-size: 30px;
 }
+
+h2 {
+    color: var(--font-color-pages);
+    font-family: 'Text Me One', sans-serif;
+}
+
+#contact-me-page-card {
+    // background-color: rgba(25, 206, 226, 0.486);
+    // background-color: rgb(255, 255, 255);
+    background-color: var(--bckg-color-contact-page);
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // width: min-content;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    // align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+    // gap:33%;
+    // width: min-content;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    height: 15vh;
+    width: 22vw;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-name {
+    padding-left: 1vw;
+    margin: 0;
+    color: var(--font-color-pages);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    display: flex; 
+    // flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.contact-name:hover {
+    text-decoration: underline;
+    transition: text-decoration 2s;
+}
+
+.contacts-anim {
+    width: max-content;
+    height: min-content; 
+    padding: 2vh 4vh 0vh 4vh;
+    z-index: 1;
+}
+
+// .contacts-anim:hover {
+//     background-color: rgba(134, 235, 228, 0.507);
+//     border-radius: 10px;
+//     color: black;
+//     transition: 2s;
+// }
+
+// .contacts-anim:hover *:not(.header) {
+//     color: black;
+// }
+
+// .contacts-anim:hover .header {
+//     color: var(--bckg-color-pages);
+//     font-weight: 600;
+//     // transition: font-weight 0.5s;
+// }
