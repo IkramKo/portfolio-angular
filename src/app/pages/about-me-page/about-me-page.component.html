@@ -36,7 +36,7 @@
 
 <div id="about-me-page-card">
     <div class="about">
-        <mat-card class="about-banner mat-elevation-z0"><!--<mat-card class="mat-elevation-z0" style="height: 98%; width:100%; background-color: rgb(20, 39, 44);"></mat-card>--></mat-card>
+        <!-- <mat-card class="about-banner mat-elevation-z0"><mat-card class="mat-elevation-z0" style="height: 98%; width:100%; background-color: rgb(20, 39, 44);"></mat-card></mat-card> -->
         <div class="desc">
             <section id="description-section">
                 <h1> WHO AM I ? </h1>
@@ -50,12 +50,13 @@
                     I'm currently looking for opportunities to put the skills I have acquired in my studies to use in order to perfect them, and even acquire new ones. 
                 </p>
             </section>
-            <br><br>
-            <section id="education-section">
-                <h2>EDUCATION</h2>
-                <app-education-card *ngFor="let education of educationList" [education]="education"></app-education-card>
-            </section>
+           
         </div>
+        <br><br>
+        <section id="education-section">
+            <h2>EDUCATION</h2>
+            <app-education-card *ngFor="let education of educationList" [education]="education"></app-education-card>
+        </section>
     </div>
     <br><br>
 

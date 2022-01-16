@@ -4,6 +4,10 @@ h1, h2 {
     font-size: 30px;
 }
 
+h2 {
+    text-align: center;
+}
+
 #about-me-page-card {
     height: min-content;
     width: 100%;
@@ -19,15 +23,18 @@ h1, h2 {
     flex-direction: row;
 }
 
-#description-section, #education-section {
+#description-section {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     padding-left: 5vw;
 }
 
 .about {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 5vh;
 }
 
