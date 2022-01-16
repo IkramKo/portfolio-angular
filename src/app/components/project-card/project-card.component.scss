@@ -4,6 +4,15 @@ mat-card {
     background-color: transparent;
 }
 
+h1, p {
+    color: var(--font-color-pages);
+}
+
+h1{
+    font-weight: 600;
+    font-family: 'Share Tech Mono', monospace;
+}
+
 .project-desc {
     display: flex;
     border-left-style: solid;
@@ -32,4 +41,8 @@ mat-card {
     display: flex;
     flex-direction: column;
     padding-left: 1vw;
+}
+
+.year {
+    padding-right: 1vw;
 }
