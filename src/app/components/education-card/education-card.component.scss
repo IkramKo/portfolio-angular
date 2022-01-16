@@ -1,15 +1,39 @@
+mat-card {
+    display: flex;
+    background-color: transparent;
+    padding-left: 0;
+}
+
+h1, h2, h3 {
+    color: var(--font-color-pages);
+}
+
+h2, h3 {
+    font-family: 'Text Me One', sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h2 {
+    padding-top: 0;
+    margin-top: -2vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 600;
+}
+
 .education-img {
     height: 8vw;
     width: 8vw;
     object-fit: cover;
     border-radius: 50%;
     align-items: center;
-}
-
-mat-card {
-    display: flex;
-    background-color: transparent;
-    padding-left: 0;
 }
 
 .content {
