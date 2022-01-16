@@ -35,28 +35,34 @@
 </section> -->
 
 <div id="about-me-page-card">
-    <h1> Who am I?</h1>
-    <section id="description-section">
-        <p class="abt-text">
-            Hi, my name is Ikram and I'm an aspiring software engineer! 
-            Growing up, I've picked up various creative hobbies, such as painting, writing and sowing. Creating things I could be proud of has always been a process I enjoyed. 
-            I've been introduced to tech at a young age, back when I was given my own computer and no longer had to fight with my brother for the right to use use his. I was able to play video games to my heart's content. The gaming then lead to a genuine interest in the tech field.
-            When the time came, software development was the obvious career choice for me, since it combined creativity and technical skills!
-            <br>
-            I'm currently looking for opportunities to put the skills I have acquired in my studies to use in order to perfect them, and even acquire new ones. 
-        </p>
-    </section>
+    <div class="about">
+        <mat-card class="about-banner"></mat-card>
+        <div class="desc">
+            <section id="description-section">
+                <h1> WHO AM I ? </h1>
+                <p class="about-text">
+                    Hi, my name is Ikram and I'm an aspiring software engineer! 
+                    <br><br>
+                    Growing up, I've picked up various creative hobbies, such as painting, writing and sowing. Creating things I could be proud of has always been a process I enjoyed. 
+                    I've been introduced to tech at a young age, back when I was given my own computer and no longer had to fight with my brother for the right to use use his. I was able to play video games to my heart's content. The gaming then lead to a genuine interest in the tech field.
+                    When the time came, software development was the obvious career choice for me, since it combined creativity and technical skills!
+                    <br><br>
+                    I'm currently looking for opportunities to put the skills I have acquired in my studies to use in order to perfect them, and even acquire new ones. 
+                </p>
+            </section>
+            <br><br>
+            <section id="education-section">
+                <h2>EDUCATION</h2>
+                <app-education-card *ngFor="let education of educationList" [education]="education"></app-education-card>
+            </section>
+        </div>
+    </div>
 
-    <section id="education-section">
-        <h2>My Education</h2>
-        <app-education-card *ngFor="let education of educationList" [education]="education"></app-education-card>
-    </section>
-
-    <h2>Technologies I'm familiar with</h2>
+    <h2 class="skills-header">Technologies I'm familiar with</h2>
     <section id="skills-section">
         <div class="skill" *ngFor="let skill of skillsList">
             <img class="skill-img" src="{{ skill.icon }}">
-            <p> {{ skill.name }} </p>
+            <p class="skill-name"> {{ skill.name }} </p>
         </div>
     </section>
 </div>

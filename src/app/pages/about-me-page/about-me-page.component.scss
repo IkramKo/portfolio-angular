@@ -1,21 +1,50 @@
+h1, h2 {
+    font-family: 'VT323', monospace;
+    color: var(--font-color-title);
+    font-size: 30px;
+}
+
 #about-me-page-card {
-    height: 100%;
+    height: min-content;
     width: 100%;
-    background-color: var(--bckg-color); 
+    background-color: var(--bckg-color-pages); 
     padding-top: var(--top-padding);
     display: flex;
     flex-direction: column;
-    // padding-left: 1.04vw;
-    // overflow: hidden;
 }
 
 #skills-section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    // flex-basis: 50%;
-    // align-content: flex-start;
-    // align-items: center;
+}
+
+#description-section, #education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 5vw;
+}
+
+.about {
+    display: flex;
+    padding-bottom: 5vh;
+}
+
+.about-banner {
+    width: 95vw; 
+    margin-left: 10vw;
+}
+
+.about-text {
+    width: 70%;
+    text-align: justify;
+    // font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color-pages);
+    line-height: 3.25vh;
 }
 
 .skill {
@@ -25,7 +54,6 @@
     flex-basis: 14%;
     padding: 0;
     margin: 0;
-    // width: 100%;
 }
 
 .skill-img {
@@ -33,13 +61,16 @@
     width: 35%;
 }
 
-.abt-text {
-    text-align: justify;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+.skills-header {
+    text-align: center;
+    padding-bottom: 2.5vh;
 }
 
-// p {
-//     text-align: center;
-// }
+.skill-name {
+    color: var(--font-color-pages);
+    // font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: 600;
+    padding-top: 1vh;
+    font-size: 17px;
+}

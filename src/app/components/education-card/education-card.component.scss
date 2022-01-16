@@ -1,6 +1,6 @@
 .education-img {
-    height: 10vw;
-    width: 10vw;
+    height: 8vw;
+    width: 8vw;
     object-fit: cover;
     border-radius: 50%;
     align-items: center;
@@ -9,6 +9,7 @@
 mat-card {
     display: flex;
     background-color: transparent;
+    padding-left: 0;
 }
 
 .content {

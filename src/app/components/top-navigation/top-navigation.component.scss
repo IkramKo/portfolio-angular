@@ -9,6 +9,8 @@ mat-toolbar {
 #content {
     display: flex;
     color: white;
+    font-family: 'VT323', monospace;
+    font-size: x-large;
     gap: 1.5vw;
 }
 
@@ -19,9 +21,14 @@ mat-toolbar {
 .name {
     font-family: 'Nova Square', cursive;
     font-weight: 600;
-    color: rgb(35, 241, 224);
+    color: var(--font-color-title);
 }
 
 .name:hover {
     cursor: pointer;
+}
+
+.nbr {
+    font-family: 'VT323', monospace;
+    color: var(--font-color-title);
 }

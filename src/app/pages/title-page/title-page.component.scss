@@ -15,7 +15,7 @@
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(10, 19, 20);
+    background-color: var(--bkg-color-components);
     background-size: 100% 100%;
     overflow-x: hidden;
 }
@@ -48,7 +48,7 @@ h2 {
     line-height: 70px;
     font-weight: 500;
     font-size: 90px;
-    color: rgb(35, 241, 224);
+    color: var(--font-color-title);
     text-shadow: -4px 2px 2px #99d4cc67;
     font-family: 'Nova Square', cursive;
 }
@@ -77,5 +77,5 @@ button:hover {
 }
 
 mat-icon {
-    color: rgb(35, 241, 224);
+    color: var(--font-color-title);
 }

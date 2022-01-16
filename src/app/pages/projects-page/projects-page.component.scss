@@ -1,7 +1,7 @@
 #projects-page-card {
-    // height: 100%;
+    height: min-content;
     width: 100%;
-    background-color: var(--bckg-color); 
+    background-color: var(--bckg-color-pages); 
     padding-top: var(--top-padding);
     display: flex;
     flex-direction: column;
