@@ -3,8 +3,8 @@
         "year": "2020",
         "title": "Embedded Systems Project",
         "image": "/assets/images/projects/robot.png",
-        "description": "Blah Blah Technologies used etc",
-        "sourceCode": "weeasdlasdj_1",
+        "description": "In this project, we worked in teams of 4 in order to program a robot in a simulator. The user is provided with a numbered list of actions for the robot to execute, and could select the actions by typing them on their keyboard, or by interaction with the simulator's keyboard. In this project, I have worked on the utility, wheel and timer classes in order to provide my team with the necessary methods to control the timer and 'wheels' of the robot. I have also taken on the role of secretary in order to keep track of the team's progress and organize meetings.",
+        "sourceCode": "Placeholder",
         "link": "",
         "buttonMessage": "NO AVAILABLE LINK"
     },
@@ -12,8 +12,8 @@
         "year": "2021",
         "title": "Web Application Project",
         "image": "/assets/images/projects/scrabble.jpg",
-        "description": "Blah Blah Technologies used etc",
-        "sourceCode": "weeasdlasdj_2",
+        "description": "In this project, we worked in teams of 6 in order to build a Scrabble web application. The user can play against a virtual player in two difficulties: beginner and expert, or in multiplayer against friends. Two modes are available: classic, and LOG2990, which introduces the concept of challenges. I have worked on the UI/UX design of the website, the scoreboard database, the waiting rooms system as well as the player actions. I have also, once again, taken on the role of the secretary as well. It is important to me that the team holds regular meetings so that everyone is aware of the project's progress.",
+        "sourceCode": "Placeholder",
         "link": "https://scrabble.one/",
         "buttonMessage": "PLAY THE GAME!"
     },
@@ -21,8 +21,8 @@
         "year": "2022",
         "title": "Portfolio Project",
         "image": "/assets/images/projects/portfolio.jpg",
-        "description": "Blah Blah Technologies used etc",
-        "sourceCode": "weeasdlasdj_3",
+        "description": "This is a personal project I decided to work on in order to showcase my projects, as well as practice the angular skills I have aquired during the Web Application project.",
+        "sourceCode": "Placeholder",
         "link": "https://github.com/RamiKoh/portfolio-angular",
         "buttonMessage": "VIEW SOURCE CODE"
     }

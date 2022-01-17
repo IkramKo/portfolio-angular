@@ -23,9 +23,8 @@ h1{
 }
 
 .project-img-overlay {
-    background-color: black;
     position: relative;
-    width: 33.33%;
+    width: 50%;
 }
 
 .project-img {
@@ -85,8 +84,39 @@ h1{
     display: flex;
     flex-direction: column;
     padding-left: 1vw;
+    width: 75%;
+    text-align: justify;
+}
+
+.content p {
+    font-family: monaco, Consolas, "Lucida Console", monospace; 
+    font-size: 20px;
+    font-variant: normal;
+    line-height: 3.25vh;
 }
 
 .year {
     padding-right: 1vw;
+}
+
+@media screen and (max-width:900px) {
+
+    .project-desc {
+        flex-direction: column;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .project-img-overlay {
+        background-color: black;
+        position: relative;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+    
 }
