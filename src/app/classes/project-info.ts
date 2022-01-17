@@ -4,5 +4,6 @@ export interface ProjectInfo {
     image: string,
     description: string,
     sourceCode: string,
-    link: string
+    link: string,
+    buttonMessage: string
   }

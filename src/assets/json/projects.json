@@ -5,7 +5,8 @@
         "image": "/assets/images/projects/robot.png",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_1",
-        "link": ""
+        "link": "",
+        "buttonMessage": ""
     },
     {
         "year": "2021",
@@ -13,7 +14,8 @@
         "image": "/assets/images/projects/scrabble.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_2",
-        "link": "pepe1"
+        "link": "https://scrabble.one/",
+        "buttonMessage": "Play the Game!"
     },
     {
         "year": "2022",
@@ -21,6 +23,7 @@
         "image": "/assets/images/projects/portfolio.jpg",
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_3",
-        "link": "pepe2"
+        "link": "https://github.com/RamiKoh/portfolio-angular",
+        "buttonMessage": "View Source Code"
     }
 ]
