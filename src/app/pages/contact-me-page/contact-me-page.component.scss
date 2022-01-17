@@ -77,28 +77,10 @@ h2 {
     z-index: 1;
 }
 
-// .contacts-anim:hover {
-//     background-color: rgba(134, 235, 228, 0.507);
-//     border-radius: 10px;
-//     color: black;
-//     transition: 2s;
-// }
-
-// .contacts-anim:hover *:not(.header) {
-//     color: black;
-// }
-
-// .contacts-anim:hover .header {
-//     color: var(--bckg-color-pages);
-//     font-weight: 600;
-//     // transition: font-weight 0.5s;
-// }
-
 @media screen and (max-width:900px) {
 
     .contacts-list {
         display: block;
-    // flex-direction: column;
         justify-content: left;
         align-items: left;
         padding: 0;
