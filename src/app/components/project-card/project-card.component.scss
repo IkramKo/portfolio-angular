@@ -56,11 +56,14 @@ h1{
 .link-button {
     background-color: var(--bckg-color-contact-page);
     color: var(--font-color-pages);
-    font-size: 16px;
+    font-size: 20px;
     // padding: 16px 32px;
     text-align: center;
     height: 5vh;
     width: max-content;
+    text-decoration: none;
+    font-family: 'VT323', monospace;
+    padding: 3vh 3vh 3vh 3vh;
 }
 
 .project-img-overlay:hover .project-img {

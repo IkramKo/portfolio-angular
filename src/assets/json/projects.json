@@ -6,7 +6,7 @@
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_1",
         "link": "",
-        "buttonMessage": ""
+        "buttonMessage": "NO AVAILABLE LINK"
     },
     {
         "year": "2021",
@@ -15,7 +15,7 @@
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_2",
         "link": "https://scrabble.one/",
-        "buttonMessage": "Play the Game!"
+        "buttonMessage": "PLAY THE GAME!"
     },
     {
         "year": "2022",
@@ -24,6 +24,6 @@
         "description": "Blah Blah Technologies used etc",
         "sourceCode": "weeasdlasdj_3",
         "link": "https://github.com/RamiKoh/portfolio-angular",
-        "buttonMessage": "View Source Code"
+        "buttonMessage": "VIEW SOURCE CODE"
     }
 ]
